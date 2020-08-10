@@ -1,0 +1,30 @@
+body {
+    background-color: #A1C181;
+    display: grid;
+    grid-template-columns: 1, auto;
+    justify-content: center;
+    flex: none;
+}
+
+#header{
+    margin: 20px auto;
+    position: centered;
+}
+
+button{
+    background-color: #233D4D;
+    border: none;
+    color: #FCCA46;
+    padding: 10px 15px;
+    text-align: center;
+    display: inline-block;
+    font-family: Georgia;
+    font-size: 14px;
+}
+
+#container{
+    display: grid;
+    width: 80vmin;
+    height: 80vmin;
+    background-color: #619B8A;
+}
