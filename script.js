@@ -12,7 +12,7 @@ function makeGrid() {
     for(var i = 0; i < (gridSize*gridSize); i++) {
         blockDiv = document.createElement("div");
         blockDiv.className = "block";
-        blockDiv.style.backgroundColor= '#619B8A';
+        blockDiv.style.backgroundColor= '#f2f2f2';
         container.append(blockDiv);
       }
 }
@@ -21,8 +21,8 @@ function makeGrid() {
 function draw() {
     let currentBackground = event.target.style.backgroundColor;
     let drawingArea = event.target;
-    if (currentBackground = '#619B8A') {
-        drawingArea.style.backgroundColor= '#FE7F2D'    
+    if (currentBackground = '#f2f2f2') {
+        drawingArea.style.backgroundColor= '#8c8c8c'    
     } else {
         console.log(error);
     }
